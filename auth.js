@@ -6,7 +6,7 @@ function login(username, password) {
   if (username === 'locked_user') {
     return false;
   }
-  if (username === 'admin' && password === '123') {
+  if (username === 'admin' && password === '9999') {
     return true;
   }
   return false;
