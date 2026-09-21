@@ -1,3 +1,4 @@
+Updated authentication logic for feature branch
 function login(username, password) {
   if (!username || !password) {
     return false;
